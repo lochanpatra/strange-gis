@@ -2,3 +2,13 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.leaflet-container {
+  min-height: 94vh;
+}
+
+.leaflet-draw-toolbar a {
+  background-image: url("https://unpkg.com/leaflet-draw@1.0.2/dist/images/spritesheet.png");
+  background-repeat: no-repeat;
+  color: transparent !important;
+}
